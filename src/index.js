@@ -4,8 +4,8 @@ import registerServiceWorker from './registerServiceWorker';
 import Pokemons from './Pokemon.js';
     
 window.onload = function () {
-    ReactDOM.render(<Pokemons />, document.getElementById('content'));
-    registerServiceWorker();
+  ReactDOM.render(<Pokemons />, document.getElementById('content'));
+  registerServiceWorker();
 }
 
 
